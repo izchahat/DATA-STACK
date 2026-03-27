@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 app.use(bodyParser.json());
 app.use(cors({
-    origin: "http://data-stack-one.vercel.app/"
+    origin: "https://data-stack-one.vercel.app"
 }));
 
 
