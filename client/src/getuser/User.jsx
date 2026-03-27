@@ -11,7 +11,7 @@ const User = () => {
         const fetchData = async()=>{
             try {
 
-                const response = await axios.get("http://localhost:8000/api/users")
+                const response = await axios.get("https://data-stack-server-zb9q.onrender.com/api/users")
                 setUsers(response.data)
 
             } catch (error) {
@@ -22,7 +22,7 @@ const User = () => {
     },[]);
 
     const deleteUser = async (userId) =>{
-        await axios.delete(`http://localhost:8000/api/delete/user/${userId}`)
+        await axios.delete(`https://data-stack-server-zb9q.onrender.com/api/delete/user/${userId}`)
         .then((response)=>{
             setUsers((prevUser) =>prevUser.filter((user)=>user._id !==userId))
             toast
