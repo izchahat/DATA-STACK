@@ -22,7 +22,7 @@ const AddUser = () => {
 
     const SubmitForm = async(e)=>{
         e.preventDefault();
-        await axios.post("https://data-stack-server-zb9q.onrender.com/api/user",user)
+        await axios.post("https://data-stack-server-zb9q.onrender.com/api/user", user)
         .then((response)=>{
             toast.success(response.data.message, { position: "top-right" });
             navigate("/")

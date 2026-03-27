@@ -10,7 +10,9 @@ dotenv.config();
 
 const app = express();
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors({
+    origin: "http://data-stack-one.vercel.app/"
+}));
 
 
 const PORT = process.env.PORT || 8000;
