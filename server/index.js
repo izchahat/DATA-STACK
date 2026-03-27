@@ -5,10 +5,13 @@ import dotenv from "dotenv"
 import route from "./routes/userRoute.js"
 import cors from "cors"
 
+
+dotenv.config();
+
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
-dotenv.config();
+
 
 const PORT = process.env.PORT || 8000;
 const MONGOURL = process.env.MONGO_URL;
