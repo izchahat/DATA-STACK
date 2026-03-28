@@ -18,6 +18,29 @@ https://github.com/izchahat/DATA-STACK
 
 ---
 
+
+##  Project Screenshots
+
+###  Home Page
+
+![Home Page](screenshots/home-page.png)
+
+###  Add User
+
+![Add User](screenshots/add-user.png)
+
+###  User List
+
+![MongoDB Save Data](screenshots/mongoDB.png)
+
+###  Edit User
+
+![Update User](screenshots/update-user.png)
+
+### Delete User
+
+![Delete User](screenshots/delete-user.png)
+
 ##  Tech Stack
 
 Frontend  
