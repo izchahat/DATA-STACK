@@ -5,7 +5,7 @@ This project allows users to manage data through a simple and responsive interfa
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 Frontend (Vercel)  
 https://data-stack-one.vercel.app
@@ -18,7 +18,7 @@ https://github.com/izchahat/DATA-STACK
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 Frontend  
 - React.js
@@ -38,7 +38,7 @@ Deployment
 
 ---
 
-## ✨ Features
+## Features
 
 - Add new user data
 - View all users
@@ -50,7 +50,7 @@ Deployment
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 
 
@@ -72,7 +72,7 @@ DATA-STACK
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 Clone the repository
 git clone https://github.com/izchahat/DATA-STACK.git
@@ -97,7 +97,7 @@ npm start
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |------|------|------|
@@ -109,7 +109,7 @@ npm start
 
 ---
 
-## 📌 Author
+##  Author
 
 **Chahat Joshi**  
 Computer Science Student  
@@ -120,6 +120,6 @@ https://github.com/izchahat
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and learning purposes.
